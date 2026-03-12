@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Quark.Gen.Lucide.Abstractions.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Quark.Gen.Lucide.Abstractions\Soenneker.Quark.Gen.Lucide.Abstractions.csproj" />
     </ItemGroup>
 
     <ItemGroup>

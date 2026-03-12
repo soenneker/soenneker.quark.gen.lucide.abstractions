@@ -4,10 +4,11 @@
   </Folder>
   <Folder Name="/.github/workflows/">
     <File Path=".github/workflows/build-and-test.yml" />
+    <File Path=".github/workflows/codeql.yml" />
     <File Path=".github/workflows/publish-package.yml" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="src/Soenneker.Quark.Gen.Lucide.Abstractions.csproj" />
+    <Project Path="src/Soenneker.Quark.Gen.Lucide.Abstractions/Soenneker.Quark.Gen.Lucide.Abstractions.csproj" />
   </Folder>
   <Folder Name="/test/">
     <Project Path="test/Soenneker.Quark.Gen.Lucide.Abstractions.Tests/Soenneker.Quark.Gen.Lucide.Abstractions.Tests.csproj" />
