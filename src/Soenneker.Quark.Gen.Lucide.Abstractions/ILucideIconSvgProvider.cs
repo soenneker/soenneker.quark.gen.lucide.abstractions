@@ -7,7 +7,9 @@ namespace Soenneker.Quark.Gen.Lucide.Abstractions;
 public interface ILucideIconSvgProvider
 {
     /// <summary>
-    /// Returns the SVG markup for the given Lucide icon name (PascalCase), or null if not found. 
+    /// Returns the SVG markup for the given Lucide icon name (PascalCase), or null if not found.
     /// </summary>
+    /// <param name="iconName">Name of the icon to target.</param>
+    /// <returns>The requested text.</returns>
     string? GetSvg(string iconName);
 }
